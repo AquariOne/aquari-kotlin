@@ -1,0 +1,149 @@
+{
+  "family": "kotlin",
+  "version": "1.0.0",
+  "source_commit": "cf893e2d16b86550dc2df1cb997112635fd8b0e1",
+  "source_worktree_dirty": false,
+  "note": "SDK-only export. No private monorepo Git history is included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 34,
+      "sha256": "388ac0f3d3303bd29a976513480c3d080d17dbdbd45098dbee03316189c94a39"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 224,
+      "sha256": "dc108c5070eb593e42d0f126e91fd47c7f2416d627cd53a9cd1198120e5bc5ba"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1494,
+      "sha256": "30622e57855e1601aebe38f3fd6e869d341b7decc624782d8c7409edce2c9f74"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "bytes": 2579,
+      "sha256": "5b6f44e1f0f2ac0a2cc6c36fc82e1dbe58c1de6e09b03967e4f1614a23e3ed4f"
+    },
+    {
+      "path": "android/consumer-rules.pro",
+      "bytes": 159,
+      "sha256": "f283796d6adb131f9d32962eaa517290b367183b9bf0af69d60a35eba1384208"
+    },
+    {
+      "path": "android/src/main/AndroidManifest.xml",
+      "bytes": 72,
+      "sha256": "343d5be1ac17cdd45d1a2f2ddc616c509290e655869125a9422a96d88aa66066"
+    },
+    {
+      "path": "android/src/main/kotlin/one/aquari/android/AquariAndroidClient.kt",
+      "bytes": 5426,
+      "sha256": "0e9cd5b287d591316c80eee9109c8c9dffb04fc7f3339e5cb053ec83100dd2c7"
+    },
+    {
+      "path": "build.gradle.kts",
+      "bytes": 377,
+      "sha256": "9eabf4faf061e059c1eb62e7e98bcbd65a6e19f1a644d29ee67600a4ff36f810"
+    },
+    {
+      "path": "core/build.gradle.kts",
+      "bytes": 2609,
+      "sha256": "c5a1529b3d4d90ba381968d107e8c10da519a45b29c51d86e0b7ab2db38c122d"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/AquariClient.kt",
+      "bytes": 1287,
+      "sha256": "098c8aa107c43689ec95a121236ae860749033ab003166baffd0ba06828357cf"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Auth.kt",
+      "bytes": 28834,
+      "sha256": "c732a13fb8b4fac9dc9ec3f09df5384c993fed4d36c5aae8b15001fee47956c1"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Config.kt",
+      "bytes": 7067,
+      "sha256": "7e8758e76032810a1d8681382c3a17371b2d379d7adcfbe379b489f750a6e257"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Errors.kt",
+      "bytes": 3487,
+      "sha256": "45ac374842e51db3d599405aafdac38afb21f66efda35908da062ed9dc3f08a2"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Http.kt",
+      "bytes": 2937,
+      "sha256": "8ff7eec15f742c5551ba7726a307375f4b2a418991d3d2f7821f02fc1e77b0fd"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Oidc.kt",
+      "bytes": 5495,
+      "sha256": "3b753870b4d06444b308d529a9a567044a2ac7b366b460bf03947cd8fbf3bb70"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Passport.kt",
+      "bytes": 16972,
+      "sha256": "e6a64b98592a768162619068a69b167aef2c899298de1cf7836ac621702d393f"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Pkce.kt",
+      "bytes": 798,
+      "sha256": "c4d0ed2e9cf045650d2b1ee35db1a92d23db24f0c3f53fdb3fd231676171c00d"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Transport.kt",
+      "bytes": 10601,
+      "sha256": "ebf89f2458d78e205efbeb7dd1f0c6bec9869fd1982862b6b1a2661c4158baf1"
+    },
+    {
+      "path": "core/src/main/kotlin/one/aquari/sdk/Trust.kt",
+      "bytes": 4748,
+      "sha256": "54bc6aeb8e1c17954346c4a456a753c532e3ac88b9dc3ec8825342477fe8ade2"
+    },
+    {
+      "path": "core/src/test/kotlin/one/aquari/sdk/CoreTest.kt",
+      "bytes": 9445,
+      "sha256": "b951751d7f54c87cfd845e2b6a8ffebf44982a7edb7799234364b2c3af178771"
+    },
+    {
+      "path": "core/src/test/kotlin/one/aquari/sdk/RetryAfterTest.kt",
+      "bytes": 1134,
+      "sha256": "627b7771ef08359add70a79c258878d9e5c05c617a507c3e69938aee7d34d659"
+    },
+    {
+      "path": "gradle.properties",
+      "bytes": 190,
+      "sha256": "62fa851a54e0888541680e28a0707ca7376ed5672ca6d48fad58f77ffaf2e821"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 48462,
+      "sha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 281,
+      "sha256": "e74d4f107d2feab989b9a041a02e2d2b85567ff48415c9c7add5ecc19abd19f9"
+    },
+    {
+      "path": "gradlew",
+      "bytes": 8656,
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "gradlew.bat",
+      "bytes": 2848,
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "bytes": 359,
+      "sha256": "45268e926b0a749750aa4c850f25a8dc321f1d6d4770283302ddbf48031c1561"
+    }
+  ]
+}
